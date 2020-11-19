@@ -127,7 +127,7 @@ def create_user():
     user.hash_password(password)  # Implement Hash Password from bcrypt
     db.session.add(user)
     db.session.commit()
-    ret_data = {'user_id': username, 'full_name': firstName_lastName, 'Mother’s Favorite Search Engine': fav_search_engine}
+    ret_data = {'user_id': username, 'full_name': firstName_lastName, 'Mothers Favorite Search Engine': fav_search_engine}
     return jsonify(ret_data), 201
 
 '''
