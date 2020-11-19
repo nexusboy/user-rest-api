@@ -160,7 +160,7 @@ Security Features: Validate the JWT token and Logged in state to give access to 
 @token_login_check
 def get_user(current_user):
     user = current_user
-    ret_data = {'user_name':user.username , 'full_name' : user.firstName_lastName ,'Mother’s Favorite Search Engine': user.fav_search_engine }
+    ret_data = {'user_name':user.username , 'full_name' : user.firstName_lastName ,'Mothers Favorite Search Engine': user.fav_search_engine }
     return jsonify(ret_data),200
 
 '''
