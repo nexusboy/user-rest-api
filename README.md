@@ -1,6 +1,8 @@
-## Setup
-- ` pip install -r requirements.txt` : Installs all the requirements
+## Setup 
+
+- ` pip install -r requirements.txt` : Installs all the dependencies
 - `python user_api.py` : Running the web server
+- `http://localhost:5000/` : Homepage describing the functionality of the API 
 
 ## API Documentation
 ### Registering a new user
@@ -22,10 +24,10 @@
 
 
 - `"username":string` : username of the user
-- `"password":string` : password
+- `"password":string` : password 
 - `"confirm_password":string` : confirm_password
 - `"full_name":string` : Full_Name
-- `"search_engine_name":string` : Mom's fav  search engine name
+- `"search_engine_name":string` : Mothers's fav  search engine name
 
 **Response**
 
@@ -47,7 +49,7 @@
 
 **Send through Basic Auth Authorization header**
 
-- `username` : Username used in registration
+- `username` : Username used in registration 
 - `Password` : Password  in registration
 
 
@@ -86,7 +88,7 @@
 }
 ```
 
-### Logging out
+### Logging out 
 
 **Definition**
 
