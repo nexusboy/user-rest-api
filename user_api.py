@@ -86,7 +86,7 @@ API Documentation sent to the user as HTML Markdown
 @app.route('/')
 def index():
     ''' Return the readme.md for the api '''
-    with open(os.path.dirname(app.root_path) + 'README.md', 'r') as markdown_file:
+    with open('README.md', 'r') as markdown_file:
         # Read the content of the file
         content = markdown_file.read()
         # Convert to HTML
