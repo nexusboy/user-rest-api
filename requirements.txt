@@ -1,5 +1,6 @@
-Markdown
 Flask
 Flask_SQLAlchemy
 PyJWT
-python_bcrypt
+bcrypt
+functools
+markdown
