@@ -1,7 +1,7 @@
 ## Setup 
 
-- ` pip install -r requirements.txt` : Installs all the dependencies
-- `python user_api.py` : Running the web server
+- ` pip3 install -r requirements.txt` : Installs all the dependencies
+- `python3 user_api.py` : Running the web server
 - `http://localhost:5000/` : Homepage describing the functionality of the API 
 
 ## API Documentation
